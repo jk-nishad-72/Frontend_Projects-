@@ -1,0 +1,113 @@
+  *{
+
+
+      margin: 0%;
+      padding: 0%;
+      box-sizing: border-box;
+
+
+  }
+    html,body{
+
+        width: 100%;
+        height: 100%;
+    }
+    #main{
+
+      height: 100%;
+      width: 100%;
+      background-color: rgb(246, 255, 0);
+    }
+    .card{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      /* transform: translate(-50%,-50%); */
+    
+    height: 300px;
+    width: 250px;
+    /* background-color: gray; */
+    border: 1px solid rgb(0, 0, 0);
+  
+      border-radius: 20px;
+      /* display: flex;
+      align-items: center;
+      justify-content: center; */
+      overflow: hidden;
+
+    }
+
+    #card1{
+      /* height: 300px;
+    width: 250px; */
+              background-color: rgb(200, 29, 151);
+        z-index: 4;
+        transform: translate(-50%,-50%);rotate: ();
+
+              }
+              #card1:hover{
+                z-index: 10;
+              }
+    #card2{
+      /* height: 260px;
+    width: 190px; */
+      background-color: rgb(40, 23, 187);
+      /* rotate: -7deg; */
+      z-index: 3;
+      transform: translate(-50%,-50%) rotate(-7deg);
+
+  }
+  #card2:hover{
+    z-index: 20;
+  }
+
+  #card3{
+      /* height: 240px;
+    width: 180px; */
+      background-color: rgb(235, 8, 8);
+      /* rotate: -14deg; */
+      z-index: 2;
+      
+      transform: translate(-50%,-50%) rotate(-14deg);
+  }
+  #card3:hover{
+    z-index: 30;
+  }
+
+
+  #card4{
+      /* height: 230px;
+    width: 170px; */
+      background-color: rgb(21, 201, 102);
+      /* rotate: -21deg; */
+      z-index: 1;
+      
+      transform: translate(-50%,-50%) rotate(-21deg);
+  }
+  #card4:hover{
+    z-index: 40;
+  }
+
+  img{
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+  } 
+  
+  h1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: 2px solid black;
+
+    background-color: red;
+  }
+     .hading{
+       font-style: oblique;
+
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      
+
+     }
